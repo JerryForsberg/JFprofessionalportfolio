@@ -9,4 +9,4 @@ This portfolio is a work in progress and, will be continually refined in the com
 Currently, the design is basic but clean and easy to read. 
 
 Along with this, the site is responsive across all platforms. Please see screenshots of the portfolio page in a desktop browser format, as well as a mobile format, below. 
-
+![portfolio full page](https://github.com/JerryForsberg/JFprofessionalportfolio/blob/master/portfoliopagefull.PNG)
