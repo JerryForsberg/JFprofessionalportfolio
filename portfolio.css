@@ -1,0 +1,55 @@
+body {
+    background-color: lightgray;
+}
+
+.list-unstyled {
+    margin: 20px;
+    
+}
+
+.content{
+    background-color: white;
+}
+
+.media {
+    padding: 20px;
+
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+}
+
+.media-body {
+    padding: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+img {
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+h5 {
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+}
+
+.contact {
+    background-size: 100%;
+    background: lightgray;
+
+}
+
+
