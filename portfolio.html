@@ -12,76 +12,92 @@
 
 <body>
 
-    <div class="container-fluid content">
-        <nav class="navbar navbar-dark bg-dark">
-            <!-- Navbar content -->
-            <a class="navbar-brand" href="index.html">Jerry Forsberg</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="container content">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="./index.html">Jerry Forsberg</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="index.html">Home <span class="sr-only"></span></a>
-                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                    <a class="nav-item nav-link" href="contact.html">Contact</a>
-                </div>
-
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">About me <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
         </nav>
-        </nav>
+        <div class="work">
+            <div class="col-sm-12 col-md-10 col-lg-12">
+                <ul class="list-unstyled">
+                    <li class="media row">
 
-        <ul class="list-unstyled">
-            <li class="media row">
 
-                <img src="./assets/images/lyricstogo.png" class="mr-3 col-lg-4 col-md-6 col-sm-10"
-                    alt="lyrics to go front page">
+                        <img src="./assets/images/lyricstogo.png" class="mr-3 col-lg-4 col-sm-12"
+                            alt="lyrics to go front page">
 
-                <div class="media-body col-lg-8 col-md-6 col-sm-12">
-                    <h5 class="mt-0 mb-1">Lyrics To Go</h5>
-                    This app uses api's to obtain information from a user search and display that information to the
-                    user, in a clean, concise manner. This project was my first collaborative effort with fellow
-                    developers completed using a Github repo. To use this app, please click the link:<br>
-                    <a href="https://yuliatikhonova.github.io/Lyrics-To-Go/">Lyrics-To-Go</a>
-                </div>
-            </li>
-            <hr>
-            <li class="media row">
+                        <div class="media-body col-lg-8 col-sm-12">
+                            <h3 class="mt-0 mb-1">Lyrics To Go</h3>
+                            This app uses api's to obtain information from a user search and display that information to
+                            the
+                            user, in a clean, concise manner. This project was my first collaborative effort with fellow
+                            developers completed using a Github repo. To use this app, please click the link:<br>
+                            <a href="https://yuliatikhonova.github.io/Lyrics-To-Go/">Lyrics-To-Go</a>
+                        </div>
+                    </li>
+                    <hr>
+                    <li class="media row">
 
-                <img src="./assets/images/day-scheduler.PNG" class="mr-3 col-lg-4 col-md-6 col-sm-10"
-                    alt="day scheduler">
+                        <img src="./assets/images/critical-hit.PNG" class="mr-3 col-lg-4 col-sm-12" alt="critical hit">
 
-                <div class="media-body col-lg-8 col-md-6 col-sm-12">
-                    <h5 class="mt-0 mb-1">Day Planner</h5>
-                    The app pictured to the left is a day planner created using jquery and javascript. This app was
-                    completed using moment.js to help the planner account for the current time. The user can see
-                    what
-                    the current date and time is, and enter an event into any time slot for that day. That event is
-                    then
-                    saved using local storage. Please click the following link to use the application:
-                    <br>
-                    <a href="https://jerryforsberg.github.io/jfdayplanner/">Day Planner</a>
-                </div>
-            </li>
-            <hr>
-            <li class="media row">
 
-                <img src="./assets/images/wd-2.PNG" class="mr-3 col-lg-4 col-md-6 col-sm-10" alt="Weather dashboard">
 
-                <div class="media-body col-lg-8 col-md-6 col-sm-12">
-                    <h5 class="mt-0 mb-1">Weather Dashboard</h5>
-                    Using the weather dashboard app, the user can search a city for the current weather, as well as
-                    the
-                    5 day forecast. This app makes two GET requests to a weather api to obtain this information.
-                    Once a
-                    city is searched, the app will save that search as a button below the original search field. To
-                    view
-                    the weather for that city again, the user simply needs to click the button that was created. The
-                    weather app can be found using the following link: <br>
-                    <a href="https://jerryforsberg.github.io/JFWeatherDashboard/">Weather Dashboard</a>
-                </div>
-            </li>
-        </ul>
+                        <div class="media-body col-lg-8 col-sm-12">
+                            <h3 class="mt-0 mb-1">Critical Hit</h3>
+                           
+                            Critical hit is a character generator that uses handlebars to create the html, mysql to
+                            store the data, as well as sequelize to handle the communication between the database and
+                            the client. This app is deployed using Heroku. This app offers a basic layout that allows
+                            users to create characters for role
+                            playing games. It also allows users to select speciific characters that are then appended to
+                            the welcome page, giving the users easy access to characters that they use often.
+                            
+                            <br>
+                            <a href="https://critical-hit-fantasy-character.herokuapp.com/">Critical Hit</a>
+                        </div>
+                    </li>
+                    <hr>
+                    <li class="media row">
+
+                        <img src="./assets/images/wd-2.PNG" class="mr-3 col-lg-4 col-sm-12" alt="Weather dashboard">
+
+                        <div class="media-body col-lg-8 col-sm-12">
+                            <h3 class="mt-0 mb-1">Weather Dashboard</h3>
+                            Using the weather dashboard app, the user can search a city for the current weather, as well
+                            as
+                            the
+                            5 day forecast. This app makes two GET requests to a weather api to obtain this information.
+                            Once a
+                            city is searched, the app will save that search as a button below the original search field.
+                            To
+                            view
+                            the weather for that city again, the user simply needs to click the button that was created.
+                            The
+                            weather app can be found using the following link: <br>
+                            <a href="https://jerryforsberg.github.io/JFWeatherDashboard/">Weather Dashboard</a>
+                        </div>
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
 
 
 

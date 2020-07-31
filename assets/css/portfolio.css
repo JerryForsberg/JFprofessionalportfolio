@@ -1,36 +1,74 @@
 body {
-    background-color: lightgray;
+    background-color: #94A6A4;
 }
 
 .list-unstyled {
     margin: 20px;
+    justify-content: center;
     
 }
 
+.container {
+    justify-content: center;
+}
+
+
+.work {
+    align-items: center;
+    justify-content: center;
+}
+
 .content{
-    background-color: white;
+    text-align: center;
 }
 
 .media {
     padding: 20px;
+    color: #2B4040;
 
+    
+
+}
+
+
+.navbar {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    background-color: #F0F2F2;
+    border-bottom: solid;
+    border-color: #94A6A4;
+    padding-top: 5px;
+    margin-top: 5px;
+    
+    
 }
 
 .navbar-brand {
     font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    color: #2B4040;
 }
 
 .media-body {
     padding: 10px;
     font-family: 'Playfair Display', serif;
+    font-size: 16px;
 }
 
 img {
     padding: 10px;
+    max-width: 100%;
+    height: auto;      
+
 }
 
 h1 {
     font-family: 'Playfair Display', serif;
+    color: #2B4040;
+}
+
+.nav-link {
+    color: #2B4040;
 }
 
 h5 {
@@ -42,14 +80,26 @@ h2 {
     font-family: 'Playfair Display', serif;
 }
 
+
+.jumbotron {
+    background-color: #F0F2F2;
+   
+}
+
 p {
     font-family: 'Playfair Display', serif;
 }
 
-.contact {
-    background-size: 100%;
-    background: lightgray;
-
+a {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color:#5A7370;
 }
+
+
+
+
+
+
 
 

@@ -11,49 +11,56 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <nav class="navbar navbar-dark bg-dark">
-            <!-- Navbar content -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="index.html">Jerry Forsberg</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="index.html">Home <span class="sr-only"></span></a>
-                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                    <a class="nav-item nav-link" href="contact.html">Contact</a>
-                </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">About me <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+
+                </ul>
             </div>
         </nav>
-        </nav>
 
-        <div class="jumbotron">
+
+        <div class="jumbotron col-sm-12">
             <h1 class="display-4">About Me</h1>
             <p class="lead">Amateur software developer</p>
-            <hr class="my-4">
-            <p>Thanks for checking out my page! My name is Jerry Forsberg. I am a software development student,
-                currently enrolled in a full-stack bootcamp through University of Arizona. I am currently
-                proficient in HTML, and CSS, as well as JQuery and Javascript basics.<br><br>
-                By the end of the program
-                (september 2020), I plan to be proficient in node.js, react.js, as well as other server side
-                programming.<br><br>
-                To see some of my work, please click the button below to view my portfolio page </p>
-            <a class="btn btn-primary btn-lg" href="./portfolio.html" role="button">Learn more</a>
+            <hr>
+            <p> I am an amateur software developer currently enrolled in a full-stack bootcamp through University of
+                Arizona.
+                <br><br>
+                After completing this course, I intend to continue learning, to refine the skills I have already
+                gained as well as develop additional tools.
+                <br><br>
+                As such, I am looking for an opportunity that will offer a chance for continual growth in my career.
+                <br><br>
+                While a position that offers some guidance (and patience) would be an ideal start, I do think of
+                myself as someone who likes to take initiative and do the research before asking for help.
+                <br><br>
+                I believe my past work is a fair indication of where I am as a developer. Please use the button
+                below to view some of my recent projects.
+                <br><br>
+
+
+                <a class="btn btn-primary btn-lg" href="./portfolio.html" role="button">Past Work</a>
         </div>
 
-
-
-
-
-
-
-
-
-
-
     </div>
+
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
